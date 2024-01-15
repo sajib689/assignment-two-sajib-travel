@@ -256,6 +256,114 @@ nav ul li a{
     background: rgba(233, 68, 68, 0.05);
 
 }
+    /* end css choose section css and start the deals & discount section css */
+.deals-container{
+    margin: 100px 127px 100px 127px;
+}
+.deals-content{
+    text-align: center;
+}
+.deals-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.deals-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    margin: 20px 0px 20px 0px;
+}
+.first-deals-container{
+    background-image: url('./Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+}
+.deal-main-container{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    float: right;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    margin-right: 56px;
+}
+
+.deals-details{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.deals-details div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.deals-details div i{
+    color: #FF5400;
+}
+.deals-details div > p{
+    margin-left: 12px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottom-content{
+    margin: 50px;
+}
+.bottom-content h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 16px;
+}
+.bottom-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+    margin-bottom: 16px;
+}
+.bottom-content h3{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.bottom-content button {
+    background-color: #FF5400;
+    padding: 16px 23px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
+.second-deals-container{
+    background-image: url('./Images/Group\ 40.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.second-main-container {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    float: left;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    margin-left: 56px;
+}
+/*  */
 /* Responsive for mobile css start from here */
 @media screen and (max-width: 600px) {
     header {
@@ -359,5 +467,8 @@ nav ul li a{
     .choose-box p{
         font-size: 14px;
     }
+    /* end css choose section css and start the deals & discount section css */
+
+
 
 }
