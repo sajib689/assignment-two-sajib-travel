@@ -199,6 +199,63 @@ nav ul li a{
 .destination-last-img{
     width: 673px !important;
 }
+/* end here the destination css and start the why choose us section css*/
+.choose-container{
+    margin: 0px 127px 0px 127px;
+}
+.choose-content{
+    text-align: center;
+}
+.choose-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 20px;
+}
+.choose-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    width: 643px;
+    margin: 0 auto;
+}
+.choose-box-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.choose-box h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+}
+.choose-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+.choose-box{
+    padding: 32px;
+}
+.box-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.box-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.box-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+}
 /* Responsive for mobile css start from here */
 @media screen and (max-width: 600px) {
     header {
@@ -282,4 +339,25 @@ nav ul li a{
     .destination-last-img{
         width: 100% !important;
     }
+    /* end here destination css and start the why choose us section css */
+    .choose-container{
+        margin: 20px;
+    }
+    .choose-content h1{
+        font-size: 20px;
+    }
+    .choose-content p{
+        font-size: 14px;
+        width: 309px;
+    }
+    .choose-box-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .choose-box h1{
+        font-size: 20px;
+    }
+    .choose-box p{
+        font-size: 14px;
+    }
+
 }
