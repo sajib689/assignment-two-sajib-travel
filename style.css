@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: "Mulish", sans-serif;
+
+}
+/* header css start from here */
+header {
+    margin: 52px 127px 49px 127px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo h1{
+    margin-left: 7px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+.nav-logo span {
+    color: #FF5400;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    margin-right: 44px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #424247;
+}
+.bars{
+    display: none;
+}
+/* end here header nav css from here and start the banner css */
+.banner-container{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #fff;
+}
+.banner-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 24px;
+}
+.banner-input-filed {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 64px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 12px;
+    border-radius: 8px;
+}
+.banner-filed input, select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+}
+.banner-filed input::placeholder{
+    margin-left: 10px;
+}
+.banner-filed input, select:focus{
+    outline: none;
+}
+.banner-input-filed button{
+    background-color: #FF5400;
+    padding: 16px 23px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+}
+.banner-input-filed i {
+    margin-right: 12px;
+}
+/* banner css end from here and start the popular section css */
+.popular-container{
+    margin: 100px 127px 100px 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-container img{
+    width: 100%;
+}
+.popular-content {
+    margin-right: 20px;
+}
+.popular-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 24px;
+}
+.popular-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 24px;
+}
+.popular-content button {
+    background-color: #FF5400;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    border: 0;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+/* Responsive for mobile css start from here */
+@media screen and (max-width: 600px) {
+    header {
+        margin: 20px 20px 20px 20px;
+    }
+    nav{
+        display: none;
+    }
+    .bars {
+        display: block;
+        text-decoration: none;
+        color: #424247;
+        width: 25px;
+        height: 24px;
+    }
+    .nav-logo h1{
+        font-size: 21px;
+    }
+    /* nav css end from  here and banner css start from here */
+    .banner-content{
+        margin-top: 25px;
+    }
+    .banner-content h1{
+        font-size: 22px;
+    }
+    .banner-content p{
+        width: 304px;
+        margin: 0 auto;
+    }
+    .banner-input-filed {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 32px;
+        background: rgba(255, 255, 255, 0.30);
+        padding: 12px;
+        border-radius: 8px;
+    }
+    .banner-filed input, select {
+        width: 287px;
+    }
+    .banner-input-filed button{
+        width: 287px;
+        text-align: center;
+    }
+    /* banner css end from here and start the popular tours section */
+
+    .popular-container{
+        margin: 100px 127px 100px 127px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
