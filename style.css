@@ -468,7 +468,24 @@ nav ul li a{
         font-size: 14px;
     }
     /* end css choose section css and start the deals & discount section css */
-
+    .deals-container{
+        margin: 20px;
+    }
+    .deals-content h1{
+        font-size: 20px;
+    }
+    .deal-main-container{
+        width: 303px;
+        height: 297px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        float: right;
+        margin-top: 56px;
+        margin-bottom: 56px;
+        margin-right: 56px;
+    }
 
 
 }
