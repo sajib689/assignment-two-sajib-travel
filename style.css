@@ -141,6 +141,55 @@ nav ul li a{
     border-radius: 8px;
     letter-spacing: 2px;
 }
+/* end the popular section css and start the destination css */
+.destination-container{
+    margin: 0px 127px 100px 127px;
+}
+.destination-content{
+    width: 643px;
+    margin: 0 auto;
+    text-align: center;
+}
+.destination-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.destination-content p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+.first-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.destination-img {
+    position: relative;
+}
+.destination-title {
+    position: absolute;
+    left: 39%;
+    right: 0;
+    bottom: 50%;
+}
+.destination-title h3{
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+}
+.destination-img img {
+    width: 100%;
+    height: 286px;
+}
+.second-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
 /* Responsive for mobile css start from here */
 @media screen and (max-width: 600px) {
     header {
@@ -198,5 +247,5 @@ nav ul li a{
     }
     /* end the popular section css and start destination css */
 
-    
+
 }
