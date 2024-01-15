@@ -188,9 +188,15 @@ nav ul li a{
     /* banner css end from here and start the popular tours section */
 
     .popular-container{
-        margin: 100px 127px 100px 127px;
-        display: flex;
+        margin: 24px 20px 20px 20px;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
+    .popular-container img{
+        margin-top: 24px;
+    }
+    /* end the popular section css and start destination css */
+
+    
 }
