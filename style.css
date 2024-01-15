@@ -172,12 +172,12 @@ nav ul li a{
 }
 .destination-title {
     position: absolute;
-    left: 39%;
-    right: 0;
-    bottom: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .destination-title h3{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 800;
     color: #fff;
 }
@@ -189,6 +189,15 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 24px;
+    margin: 24px 0px 24px 0px;
+}
+.third-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.destination-last-img{
+    width: 673px !important;
 }
 /* Responsive for mobile css start from here */
 @media screen and (max-width: 600px) {
@@ -246,6 +255,31 @@ nav ul li a{
         margin-top: 24px;
     }
     /* end the popular section css and start destination css */
-
-
+    .destination-container{
+        margin: 20px 20px 20px 20px;
+    }
+    .first-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 24px;
+    }
+    .destination-content{
+        width: 309px;
+        margin-top: 20px;
+    }
+    .destination-content h1{
+        font-size: 20px;
+    }
+    .destination-content p{
+        font-size: 14px;
+    }
+    .second-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .third-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .destination-last-img{
+        width: 100% !important;
+    }
 }
