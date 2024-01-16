@@ -382,6 +382,61 @@ nav ul li a{
     width: 610px;
     height: 424px;
 }
+/* end the place css and start the newsletter css */
+.newsletter-container{
+    margin: 100px 127px 100px 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter-form{
+    padding: 20px;
+    height: 410px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-right: 20px;
+}
+.newsletter-content{
+    margin-top: 25px;
+}
+.newsletter-content h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+}
+.newsletter-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.newsletter-filed {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.newsletter-filed input {
+    margin-bottom: 16px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+}
+.newsletter-filed input:focus{
+    outline: none;
+}
+.newsletter-filed input[type="submit"]{
+    background-color: #FF5400;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.newsletter-img img{
+    width: 100%;
+}
 /*  */
 /* Responsive for mobile css start from here */
 @media screen and (max-width: 600px) {
