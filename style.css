@@ -652,4 +652,11 @@ hr{
     hr{
         width: 335px;
     }
+    /* Fix some issu */
+    .box-3 {
+        width: 335px;
+        margin: 0;
+        grid-column: auto;
+        text-align: left;
+    }
 }
