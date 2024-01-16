@@ -625,18 +625,18 @@ hr{
         font-size: 20px;
     }
     .deal-main-container{
-        width: 303px;
+        width: 275px;
         height: 370px;
         float: right;
         margin-top: 95px;
-        margin-right: 18px;
+        margin-right: 30px;
     }
     .second-main-container{
-        width: 303px;
+        width: 275px;
         height: 370px;
         float: right;
         margin-top: 95px;
-        margin-right: 16px;
+        margin-right: 30px;
     }
     .deals-details{
         display: grid;
