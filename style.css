@@ -490,6 +490,28 @@ hr{
     margin-top: 50px;
     margin-bottom: 12px;
 }
+/* Extra section css */
+.about-us{
+    margin: 100px 127px 100px 127px;
+    width: 573px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-us h1{
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #131318;
+}
+.about-us button {
+    background-color: #FF5400;
+    padding: 16px 23px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+}
 /*  */
 /* Responsive for mobile css start from here */
 @media screen and (max-width: 600px) {
@@ -668,5 +690,16 @@ hr{
         margin: 0;
         grid-column: auto;
         text-align: left;
+    }
+    .about-us{
+        margin: 100px 20px 100px 20px;
+        width: 302px;
+        margin: 0 auto;
+    }
+    .about-us h1{
+        font-size: 20px;
+    }
+    .about-us button {
+        margin-top: 20px;
     }
 }
