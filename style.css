@@ -227,6 +227,7 @@ nav ul li a{
     align-items: center;
     margin-top: 48px;
 }
+
 .choose-box h1{
     font-size: 24px;
     font-weight: 800;
@@ -254,8 +255,14 @@ nav ul li a{
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-
+    width: 573px;
+    margin: 0 auto;
+    grid-column: span 2;
+    text-align: center; 
 }
+.choose-box:nth-child(3) {
+   
+  }
     /* end css choose section css and start the deals & discount section css */
 .deals-container{
     margin: 100px 127px 100px 127px;
@@ -577,6 +584,7 @@ hr{
     .choose-box p{
         font-size: 14px;
     }
+    
     /* end css choose section css and start the deals & discount section css */
     .deals-container{
         margin: 20px;
@@ -640,5 +648,8 @@ hr{
     }
     footer{
         margin: 100px 20px 20px 20px;
+    }
+    hr{
+        width: 335px;
     }
 }
