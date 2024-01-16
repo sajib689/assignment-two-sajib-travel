@@ -260,9 +260,7 @@ nav ul li a{
     grid-column: span 2;
     text-align: center; 
 }
-.choose-box:nth-child(3) {
-   
-  }
+
     /* end css choose section css and start the deals & discount section css */
 .deals-container{
     margin: 100px 127px 100px 127px;
