@@ -511,6 +511,9 @@ hr{
     font-weight: 700;
     border: 0;
 }
+.color{
+    color: #FF5400;
+}
 /*  */
 /* Responsive for mobile css start from here */
 @media screen and (max-width: 600px) {
